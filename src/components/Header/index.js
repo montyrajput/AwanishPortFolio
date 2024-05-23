@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import {Link} from 'react-router-dom'
 import {Navbar, Nav, Container} from 'react-bootstrap'
 import {FaBars} from 'react-icons/fa'
 import {RxCross2} from 'react-icons/rx'
@@ -16,7 +17,7 @@ const Header = () => {
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand href="#home" className="my-portfolio">
+        <Navbar.Brand as={Link} to="/" className="my-portfolio">
           Portfolio
         </Navbar.Brand>
         <Navbar.Toggle
@@ -27,25 +28,25 @@ const Header = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="nav-item">
+            <Nav.Link as={Link} to="/" className="nav-item">
               Home
             </Nav.Link>
-            <Nav.Link href="#About" className="nav-item">
+            <Nav.Link as={Link} to="/about" className="nav-item">
               About
             </Nav.Link>
-            <Nav.Link href="#Skills" className="nav-item">
+            <Nav.Link as={Link} to="/skills" className="nav-item">
               Skills
             </Nav.Link>
-            <Nav.Link href="#Services" className="nav-item">
+            <Nav.Link as={Link} to="/services" className="nav-item">
               Services
             </Nav.Link>
-            <Nav.Link href="#Projects" className="nav-item">
+            <Nav.Link as={Link} to="/projects" className="nav-item">
               Projects
             </Nav.Link>
-            <Nav.Link href="#Certificates" className="nav-item">
+            <Nav.Link as={Link} to="/certificates" className="nav-item">
               Certificates
             </Nav.Link>
-            <Nav.Link href="#Contact" className="nav-item">
+            <Nav.Link as={Link} to="/contact" className="nav-item">
               Contact
             </Nav.Link>
           </Nav>
