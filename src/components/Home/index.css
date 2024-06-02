@@ -1,6 +1,14 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
 .bg-container {
   background-color: #191f36;
   height: auto;
+  width: 100%;
 }
 
 .home-my-details-container {
