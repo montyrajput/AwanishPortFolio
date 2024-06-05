@@ -52,7 +52,7 @@ const Skills = () => {
     <>
       <Header />
       <div className="skill-container">
-        <h1 className="skills-heading">
+        <h1 className="skills-heading styled-node">
           Front-End <span className="skills-span-element">Technologies:</span>{' '}
         </h1>
         <div className="skills-technology skill-styled">
@@ -117,7 +117,7 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <h1 className="skills-heading">
+        <h1 className="skills-heading styled-node">
           Back-End <span className="skills-span-element">Technologies:</span>{' '}
         </h1>
         <div className="skills-technology skill-styled">

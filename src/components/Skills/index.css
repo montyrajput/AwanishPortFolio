@@ -2,6 +2,7 @@
   background-color: #191f36;
   height: auto;
   width: 100%;
+  padding-top: 80px;
 }
 
 .skills-heading {
@@ -36,9 +37,9 @@
 
 .skills-text-content {
   margin-right: 80px;
-  margin-left: 60px; /* Keep this if necessary for your layout */
-  border: 2px solid #59b2f4; /* Add this line to set the border */
-  padding-top: 20px; /* Optional: Add padding for better spacing inside the border */
+  margin-left: 60px;
+  border: 2px solid #59b2f4;
+  padding-top: 20px;
   border-radius: 5px;
   width: 70%;
   height: 70%;
