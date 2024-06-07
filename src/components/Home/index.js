@@ -72,8 +72,10 @@ const Home = () => {
           </p>
           <div className="home-icon">
             <a
-              href="https://www.linkedin.com/in/prasanya-shankar/"
+              href="https://www.linkedin.com/in/awanish-kumar-singh-315653200"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               className="link-social-media-icon"
             >
               <FaLinkedinIn className="react-icon" />

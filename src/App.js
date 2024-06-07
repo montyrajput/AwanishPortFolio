@@ -4,6 +4,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Service from './components/Service'
 import Project from './components/Project'
+
 import './App.css'
 
 const App = () => (

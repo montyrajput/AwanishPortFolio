@@ -5,6 +5,10 @@ import Header from '../Header'
 import TaskImage from '../../images/task image.jpg'
 import BookStore from '../../images/BookStore1.jpg'
 import InstaShare from '../../images/instashare.jpg'
+import PrimeVideo from '../../images/PrimeVideo.png'
+import MatchGame from '../../images/MatchGame.jpg'
+import Color from '../../images/Color.jpg'
+import AppStore from '../../images/App-Store-1.jpg'
 import Footer from '../Footer'
 
 import './index.css'
@@ -97,7 +101,7 @@ const Project = () => {
                 rahul@2021
               </p>
               <a
-                href="https://reactjsmini.ccbp.tech/"
+                href="https://awanishnxttend.ccbp.tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open ReactJS Mini project in a new tab"
@@ -112,13 +116,13 @@ const Project = () => {
             <div className="project-content">
               <h4 className="project-heading">Insta Share</h4>
               <p className="project-paragraph">
-                Netflix clone website is created using ReactJS which is the
-                replica of the popular streaming platform - Netflix, complete
-                with similar features and user interface. Username: saira,
-                Password: princess@9
+                Insta Share App website is created using ReactJS which is the
+                replica of the popular streaming platform - Instagram, complete
+                with similar features and user interface. Username: rahul,
+                Password: rahul@2021
               </p>
               <a
-                href="https://reactjsmini.ccbp.tech/"
+                href="https://AwanishInstaApp.ccbp.tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open ReactJS Mini project in a new tab"
@@ -131,15 +135,14 @@ const Project = () => {
           <div className="project-card-container project-styled3">
             <img src={BookStore} alt="project1" className="project-image" />
             <div className="project-content">
-              <h4 className="project-heading">Netflix Clone</h4>
+              <h4 className="project-heading">BookStore</h4>
               <p className="project-paragraph">
-                Netflix clone website is created using ReactJS which is the
-                replica of the popular streaming platform - Netflix, complete
-                with similar features and user interface. Username: saira,
-                Password: princess@9
+                BookStore is a E-Commerce website is created using ReactJS which
+                is the replica of the popular streaming platform - E-commerce,
+                complete with similar features and user interface.
               </p>
               <a
-                href="https://reactjsmini.ccbp.tech/"
+                href="https://AwanishBookStor.ccbp.tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open ReactJS Mini project in a new tab"
@@ -192,8 +195,29 @@ const Project = () => {
               </a>
             </div>
           </div>
+          <div className="project-card-container project-styled1">
+            <img src={PrimeVideo} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">Prime Video</h4>
+              <p className="project-paragraph">
+                Prime Video is a streaming service that offers a wide variety of
+                TV shows, movies, and original content for its users. With
+                ReactJS, we provide a dynamic and responsive user interface that
+                enhances the viewing experience.
+              </p>
+              <a
+                href="https://montyprimevio.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
 
-          <div className="project-card-container project-styled3">
+          <div className="project-card-container project-styled2">
             <img
               src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380071/38833_1_apfnyy.jpg"
               alt="project1"
@@ -217,6 +241,25 @@ const Project = () => {
             </div>
           </div>
           <div className="project-card-container project-styled3">
+            <img src={MatchGame} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">Match Game</h4>
+              <p className="project-paragraph">
+                Match Game was built using HTML, CSS, JavaScript, Flex-box.
+                Match Game is a Responsive Gaming App.
+              </p>
+              <a
+                href="https://awanishmatchgam.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+          <div className="project-card-container project-styled3">
             <img
               src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380058/Download_Rock_Paper_Scissors_Neon_Icons_for_free_vngpjq.jpg"
               alt="project1"
@@ -230,6 +273,48 @@ const Project = () => {
               </p>
               <a
                 href="https://babbugames.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+          <div className="project-card-container project-styled4">
+            <img src={Color} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">Color Generator</h4>
+              <p className="project-paragraph">
+                Welcome to ColorGen, the perfect tool for generating stunning
+                color palettes. Built with ReactJS, our site offers an easy and
+                interactive way to create and customize color schemes.
+              </p>
+              <a
+                href="https://montycolorgre.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+          <div className="project-card-container project-styled1">
+            <img src={AppStore} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">App Store</h4>
+              <p className="project-paragraph">
+                Welcome to the App Store, your one-stop destination for
+                discovering and downloading the latest apps and games. Our
+                platform, designed with a sleek and user-friendly interface,
+                makes it easy to browse through a vast collection of
+                applications across various categories.
+              </p>
+              <a
+                href="https://montyAppStore.ccbp.tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open ReactJS Mini project in a new tab"
