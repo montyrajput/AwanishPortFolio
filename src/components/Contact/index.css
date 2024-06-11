@@ -1,0 +1,114 @@
+.contact-main-container {
+  background-color: #191f36;
+  height: auto;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.contact-heading {
+  color: #ffffff;
+  font-size: 33px;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-heading {
+    font-size: 45px;
+    padding-top: 10px;
+  }
+}
+
+.contact-span {
+  color: #59b2f4;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .input-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.input1 {
+  width: 350px;
+  height: 60px;
+  margin-top: 15px;
+  padding-left: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #ffffff;
+  background: #262840;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input1 {
+    width: 670px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 25px;
+  }
+}
+
+.text-area {
+  width: 92%;
+  margin-top: 20px;
+  background: #262840;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #ffffff;
+  resize: none;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background-color: #59b2f4;
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem #59b2f4;
+  font-size: 15px;
+  color: #191f36;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+  text-decoration: none;
+  margin-bottom: 30px;
+  width: 270px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-button {
+    width: 350px;
+    font-size: 22px;
+  }
+}
+
+.contact-button:hover {
+  box-shadow: none;
+  background-color: transparent;
+  border: 2px solid #59b2f4;
+  color: #ffffff;
+}
