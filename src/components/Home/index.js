@@ -88,7 +88,7 @@ const Home = () => {
               <FaGithub className="react-icon" />
             </a>
             <a
-              href="mailto:prasanya.webdev@gmail.com"
+              href="mailto:montysinghrajput590@gmail.com"
               aria-label="Email"
               className="link-social-media-icon "
             >
@@ -117,21 +117,25 @@ const Home = () => {
             </p>
             <div className="home-icon">
               <a
-                href="https://www.linkedin.com/in/prasanya-shankar/"
+                href="https://www.linkedin.com/in/awanish-kumar-singh-315653200"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="link-social-media-icon"
               >
                 <FaLinkedinIn className="react-icon" />
               </a>
               <a
-                href="https://github.com/prasanya-web-developer"
+                href="https://github.com/montyrajput"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="GitHub"
                 className="link-social-media-icon"
               >
                 <FaGithub className="react-icon" />
               </a>
               <a
-                href="mailto:prasanya.webdev@gmail.com"
+                href="mailto:montysinghrajput590@gmail.com"
                 aria-label="Email"
                 className="link-social-media-icon"
               >

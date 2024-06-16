@@ -1,4 +1,5 @@
 import {useEffect} from 'react'
+import emailjs from 'emailjs-com'
 import ScrollReveal from 'scrollreveal'
 import Header from '../Header'
 import Footer from '../Footer'
@@ -49,6 +50,30 @@ const Contact = () => {
       origin: 'right',
     })
   }, [])
+
+  const sendEmail = e => {
+    e.preventDefault()
+
+    const serviceID = 'service_hp1r3v9'
+    const templateID = 'template_cpqpaa9'
+    const userID = 'Xre_tkyZmED3K93eh'
+
+    console.log('Sending email with the following IDs:')
+    console.log(`Service ID: ${serviceID}`)
+    console.log(`Template ID: ${templateID}`)
+    console.log(`User ID: ${userID}`)
+
+    emailjs.sendForm(serviceID, templateID, e.target, userID).then(
+      result => {
+        console.log('SUCCESS!', result.status, result.text)
+        e.target.reset()
+      },
+      error => {
+        console.error('FAILED...', error)
+      },
+    )
+  }
+
   return (
     <>
       <Header />
@@ -56,7 +81,7 @@ const Contact = () => {
         <h2 className="contact-heading input-styled4">
           Contact <span className="contact-span">Me</span>
         </h2>
-        <from className="contact-form">
+        <form className="contact-form" onSubmit={sendEmail}>
           <input
             type="hidden"
             name="access_key"
@@ -65,7 +90,7 @@ const Contact = () => {
           <div className="input-card">
             <input
               type="text"
-              name="name"
+              name="from_name"
               placeholder="Enter Your Name"
               required
               className="input1 input-styled1"
@@ -83,7 +108,7 @@ const Contact = () => {
               type="number"
               placeholder="Enter Your Mobile Number"
               required
-              name="number"
+              name="user_number"
               className="input1 input-styled2"
             />
             <input
@@ -104,7 +129,7 @@ const Contact = () => {
           <button type="submit" className="contact-button input-styled4">
             Submit
           </button>
-        </from>
+        </form>
         <Footer />
       </div>
     </>
