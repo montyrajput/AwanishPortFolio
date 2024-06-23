@@ -37,6 +37,12 @@ const Header = () => {
             <Nav.Link as={Link} to="/skills" className="nav-item">
               Skills
             </Nav.Link>
+            <Nav.Link as={Link} to="/education" className="nav-item">
+              Education
+            </Nav.Link>
+            <Nav.Link as={Link} to="/experience" className="nav-item">
+              Experience
+            </Nav.Link>
             <Nav.Link as={Link} to="/services" className="nav-item">
               Services
             </Nav.Link>
