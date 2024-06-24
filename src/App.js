@@ -7,6 +7,7 @@ import Project from './components/Project'
 import Certificate from './components/Certificate'
 import Contact from './components/Contact'
 import Education from './components/Education'
+import Experience from './components/Experience'
 
 import './App.css'
 
@@ -21,6 +22,7 @@ const App = () => (
       <Route path="/projects" element={<Project />} />
       <Route path="/certificates" element={<Certificate />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/experience" element={<Experience />} />
     </Routes>
   </Router>
 )
