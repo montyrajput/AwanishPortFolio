@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import ScrollReveal from 'scrollreveal'
 import Header from '../Header'
-import AboutPhoto from '../../images/IMG_20211004_221632 (2).jpg'
+import AboutPhoto from '../../images/montypotfolioimg.jpg9.jpg'
 import Footer from '../Footer'
 import './index.css'
 

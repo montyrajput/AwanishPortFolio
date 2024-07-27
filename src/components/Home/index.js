@@ -5,7 +5,7 @@ import ScrollReveal from 'scrollreveal'
 
 import Header from '../Header'
 import Footer from '../Footer'
-import MyPhoto from '../../images/IMG_20211004_221632 (2).jpg'
+import MyPhoto from '../../images/montypotfolioimg.jpg5.jpg'
 import Myresume from '../../images/Awanish_2023-09-30-183831.pdf'
 
 import './index.css'
