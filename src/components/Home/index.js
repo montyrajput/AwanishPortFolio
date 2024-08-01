@@ -6,7 +6,7 @@ import ScrollReveal from 'scrollreveal'
 import Header from '../Header'
 import Footer from '../Footer'
 import MyPhoto from '../../images/montypotfolioimg.jpg5.jpg'
-import Myresume from '../../images/Awanish_2023-09-30-183831.pdf'
+import Myresume from '../../images/Awanish_2024-08-01-195233.pdf'
 
 import './index.css'
 
@@ -81,7 +81,7 @@ const Home = () => {
               <FaLinkedinIn className="react-icon" />
             </a>
             <a
-              href="https://github.com/prasanya-web-developer"
+              href="https://github.com/montyrajput"
               aria-label="GitHub"
               className="link-social-media-icon"
             >
