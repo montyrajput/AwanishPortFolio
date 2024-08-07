@@ -9,6 +9,9 @@ import PrimeVideo from '../../images/PrimeVideo.png'
 import MatchGame from '../../images/MatchGame.jpg'
 import Color from '../../images/Color.jpg'
 import AppStore from '../../images/App-Store-1.jpg'
+import NxtWatch from '../../images/Nxt watch image.jpeg'
+import IPlDashboard from '../../images/IPL Dashboard.png'
+import MoneyManagement from '../../images/Money Mangement.jpeg'
 import Footer from '../Footer'
 
 import './index.css'
@@ -177,6 +180,51 @@ const Project = () => {
           </div>
 
           <div className="project-card-container project-styled1">
+            <img src={NxtWatch} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">Nxt Watch</h4>
+              <p className="project-paragraph">
+                The NXT Watch React.js project is a dynamic video streaming
+                platform with user authentication, personalized recommendations,
+                and responsive design, showcasing our expertise in building
+                interactive, scalable web applications.
+              </p>
+              <a
+                href="https://AwanishNxtwatch.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card-container project-styled3">
+            <img src={IPlDashboard} alt="project1" className="project-image" />
+            <div className="project-content">
+              <h4 className="project-heading">IPL DashBoard </h4>
+              <p className="project-paragraph">
+                The IPL Dashboard React app offers real-time updates, detailed
+                stats, and interactive charts for IPL matches. With a responsive
+                design, it ensures accessibility on all devices, showcasing our
+                skills in creating dynamic, data-driven applications using
+                React.js.
+              </p>
+              <a
+                href="https://Awanishipldash.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card-container project-styled2">
             <img src={TaskImage} alt="project1" className="project-image" />
             <div className="project-content">
               <h4 className="project-heading">Task Managing App</h4>
@@ -217,7 +265,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="project-card-container project-styled2">
+          <div className="project-card-container project-styled1">
             <img
               src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380071/38833_1_apfnyy.jpg"
               alt="project1"
@@ -240,7 +288,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div className="project-card-container project-styled3">
+          <div className="project-card-container project-styled4">
             <img src={MatchGame} alt="project1" className="project-image" />
             <div className="project-content">
               <h4 className="project-heading">Match Game</h4>
@@ -282,7 +330,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div className="project-card-container project-styled4">
+          <div className="project-card-container project-styled1">
             <img src={Color} alt="project1" className="project-image" />
             <div className="project-content">
               <h4 className="project-heading">Color Generator</h4>
@@ -302,7 +350,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div className="project-card-container project-styled1">
+          <div className="project-card-container project-styled2">
             <img src={AppStore} alt="project1" className="project-image" />
             <div className="project-content">
               <h4 className="project-heading">App Store</h4>
@@ -315,6 +363,31 @@ const Project = () => {
               </p>
               <a
                 href="https://montyAppStore.ccbp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open ReactJS Mini project in a new tab"
+                className="project-anchor-link"
+              >
+                <FaArrowUpRightFromSquare className="project-link-icon" />
+              </a>
+            </div>
+          </div>
+          <div className="project-card-container project-styled3">
+            <img
+              src={MoneyManagement}
+              alt="project1"
+              className="project-image"
+            />
+            <div className="project-content">
+              <h4 className="project-heading">Money Management</h4>
+              <p className="project-paragraph">
+                The Money Management React app tracks expenses, sets budgets,
+                and visualizes spending with interactive charts. Built with
+                React.js, it offers smooth, responsive design, showcasing our
+                ability to create practical financial tools.
+              </p>
+              <a
+                href="https://AwanishMoneyma.ccbp.tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open ReactJS Mini project in a new tab"
